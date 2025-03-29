@@ -1,0 +1,116 @@
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #004b63;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            position: fixed;
+        }
+        .login-container h1 {
+            margin: 0;
+        }
+        .container {
+            display: grid;
+            background-color: #ffffff;
+            padding: 20px;
+            position: relative;
+            top : -50px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            align-items: center;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        .input-group {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin: 10px 0;
+        }
+        label {
+            margin-right: 10px;
+            flex-basis: 30%;
+            text-align: left;
+        }
+        select{
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            flex-basis: 72%;
+        }
+        input{
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            flex-basis: 65%;
+        }
+        button {
+            background-color: #1E88E5;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+button:hover {
+            background-color: #1565C0;
+        }
+        /* Modal styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.4);
+            justify-content: center;
+            align-items: center;
+        }
+        .modal-content {
+            background-color: #fff;
+            margin: 15% auto;
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #f1f1f1;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .version {
+            font-size: 0.9em;
+            color: #666;
+        }
