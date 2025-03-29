@@ -1,0 +1,44 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Lembur</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Ngitung Lemburan</h1>
+<p>AWASI LEMBURANMU !!!</p>
+    <div class="input-group">
+        <label for="jam1">1 Jam</label>
+        <input id="jam1" type="number" placeholder="Masukkan Nilai" required>
+    </div>
+    <div class="input-group">
+        <label for="jam2">2 Jam</label>
+        <input id="jam2" type="number" placeholder="Masukkan Nilai" required>
+    </div>
+    <div class="input-group">
+        <label for="jam3">3 Jam</label>
+        <input id="jam3" type="number" placeholder="Masukkan Nilai" required>
+    </div>
+    <div class="input-group">
+        <label for="jam4">4 Jam</label>
+        <input id="jam4" type="number" placeholder="Masukkan Nilai" required>
+    </div>
+    <div class="input-group">
+        <label for="gaji">Gaji</label>
+        <input id="gaji" type="number" placeholder="Masukkan Nilai" required>
+    </div>
+    <button onclick="calculate()">Hitung</button>
+</div><!-- Modal --><div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <p id="modalText"></p>
+    </div>
+</div><footer>
+    <div>&copy; 2025 Karya Saya</div>
+    <div class="version">Versi 1.0.1</div>
+</footer>
+<script defer src="script.js"></script>
+</body>
+</html>
